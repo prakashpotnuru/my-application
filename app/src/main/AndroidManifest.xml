@@ -15,6 +15,7 @@
         android:theme="@style/Theme.MyApplication">
         <activity
             android:name=".HomeActivity"
+            android:label="@string/HomePage"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
