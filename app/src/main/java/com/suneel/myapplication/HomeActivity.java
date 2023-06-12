@@ -23,7 +23,7 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
     FirstFragment firstFragment = new FirstFragment();
     SecondFragment secondFragment = new SecondFragment();
     ThirdFragment thirdFragment = new ThirdFragment();
-
+// implemented selected navigtion
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {

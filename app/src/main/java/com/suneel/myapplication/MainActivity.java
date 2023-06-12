@@ -204,4 +204,7 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+    public EditText getConfirmPassword() {
+        return ConfirmPassword;
+    }
 }
