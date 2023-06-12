@@ -43,7 +43,7 @@ import com.karumi.dexter.listener.single.PermissionListener;
 
 import java.text.BreakIterator;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     EditText Name, Email, Mobile, Password, ConfirmPassword, Address;
     ImageView imageView;
@@ -204,4 +204,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public EditText getConfirmPassword() {
+        return ConfirmPassword;
+    }
 }
