@@ -53,4 +53,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    public Button getBtn() {
+        return btn;
+    }
 }
